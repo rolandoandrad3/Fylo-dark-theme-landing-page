@@ -1,0 +1,25 @@
+header{
+    background-color: hsl(217, 28%, 15%);
+}
+main{
+    background-color:  hsl(218, 28%, 13%);
+}
+footer{
+    background-color: hsl(216, 53%, 9%)
+}
+.testimonials{
+    background-color: hsl(219, 30%, 18%)
+}
+.error{
+    background-color: hsl(0, 100%, 63%)
+}
+body{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 400, 700;
+}
+h1, h2, h3, nav{
+    font-family: Raleway;
+    font-weight: 400, 700;
+}
