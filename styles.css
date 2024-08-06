@@ -1,25 +1,79 @@
-header{
+header {
     background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
-main{
-    background-color:  hsl(218, 28%, 13%);
+
+main {
+    background-color: hsl(218, 28%, 13%);
 }
-footer{
-    background-color: hsl(216, 53%, 9%)
+
+footer {
+    background-color: hsl(216, 53%, 9%);
 }
-.testimonials{
-    background-color: hsl(219, 30%, 18%)
+
+.testimonials {
+    background-color: hsl(219, 30%, 18%);
 }
-.error{
-    background-color: hsl(0, 100%, 63%)
+
+.error {
+    background-color: hsl(0, 100%, 63%);
 }
-body{
+
+body {
     color: hsl(0, 0%, 100%);
     font-size: 14px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400, 700;
 }
-h1, h2, h3, nav{
-    font-family: Raleway;
+
+h1, h2, h3, nav {
+    font-family: 'Raleway', sans-serif;
     font-weight: 400, 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand img {
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: hsl(0, 0%, 80%);
+}
+.GetStarted {
+    background-size: cover;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
 }
