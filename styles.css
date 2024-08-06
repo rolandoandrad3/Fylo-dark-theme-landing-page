@@ -99,3 +99,17 @@ h1, h2, h3, nav {
         text-align: left;
     }
 }
+.bgimage {
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    /* Default for mobile */
+    background-image: url('https://res.cloudinary.com/dza5zabib/image/upload/v1722899194/bg-curvy-mobile_yfircm.svg');
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+    .bgimage {
+        background-image: url('https://res.cloudinary.com/dza5zabib/image/upload/v1722899194/bg-curvy-desktop_cy0ngt.svg');
+    }
+}
