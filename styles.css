@@ -121,3 +121,10 @@ h1, h2, h3, nav {
     text-align: center;
     padding: 20px;
 }
+.cardbg {
+    background-image: url('https://res.cloudinary.com/dza5zabib/image/upload/v1722899195/bg-quotes_usmv89.png');
+    padding: 30px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    margin: 5% 10%;
+}
