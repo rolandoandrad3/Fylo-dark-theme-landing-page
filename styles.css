@@ -143,3 +143,12 @@ h1, h2, h3, nav, span{
     padding: 10px;
     align-items: center;
 }
+.gatcard{
+    background-color: #1B212F;
+    background: #1B212F;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    size: 50rem;
+}
